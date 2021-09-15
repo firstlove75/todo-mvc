@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'sql110.byethost.com',
-            'port' => env('DB_PORT', '3306'),
-            'database' => 'b7_21918509_todo_mvc',
-            'username' => 'b7_21918509',
-            'password' => 'chiakicolen7587',
+            'host' => 'localhost',
+            'port' => 3306,
+            'database' => 'todo_mvc',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
@@ -68,11 +68,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => 'ec2-44-198-223-154.compute-1.amazonaws.com',
+            'port' => 5432,
+            'database' => 'd5enn2j13jugcf',
+            'username' => 'xrnorofsbqcbft',
+            'password' => 'f9a9cc4986b8ffe18b7aeef15fa95557e9d4ee84ed9650bd4878d9d9b3310d63',
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
